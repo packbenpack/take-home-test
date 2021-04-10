@@ -9,3 +9,14 @@
  *  a password, it'll be
  *    mysql -u root < schema.sql
 */
+USE groceries;
+CREATE TABLE groceries (
+  id INT NOT NULL AUTO_INCREMENT,
+  item VARCHAR(40),
+  amount INT,
+  PRIMARY KEY (ID)
+
+);
+
+
+
