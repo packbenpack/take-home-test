@@ -18,4 +18,12 @@ router.delete('/deleteAll', function(req, res) {
   controller.deleteAll(req, res)
 })
 
+router.put('/increment', function(req, res) {
+  controller.increment(req, res)
+})
+
+router.put('/decrement', function(req, res) {
+  controller.decrement(req, res)
+})
+
 module.exports = router
