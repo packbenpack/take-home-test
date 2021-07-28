@@ -1,0 +1,22 @@
+
+.pricing {
+  background-image: url('../../../front-end-dev-test-assets/banner-1.jpg');
+  background-size: cover;
+}
+
+.pricingBtn {
+  border:none;
+  color:white;
+  background-color: coral;
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -30px;
+}
+
+.pricingInfo {
+  margin-left: 12.5%;
+  margin-top: 150px;
+}

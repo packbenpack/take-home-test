@@ -1,0 +1,21 @@
+.carousel {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [Overview] 50% [Carousel] 50%;
+  grid-template-rows: auto;
+}
+
+.carouselTitle {
+  font-size: 3em;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.stars {
+  color: coral;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}

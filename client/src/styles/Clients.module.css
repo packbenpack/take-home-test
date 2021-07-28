@@ -1,0 +1,28 @@
+
+.clients {
+  background-image: url('../../../front-end-dev-test-assets/banner-2.jpg');
+  background-size: cover;
+}
+
+.clientsBtn {
+  border:none;
+  color:white;
+  background-color: coral;
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.clientsInfo {
+  width: 300px;
+  margin-left: 60%;
+  margin-top: 150px;
+}
+
+.clientsText {
+  font-size: 1.1em;
+}

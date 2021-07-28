@@ -1,0 +1,30 @@
+.header {
+  color: #603475;
+}
+
+.missionInfo {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 100px;
+}
+
+.missionLearnMore {
+  color: #603475;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.missionPicture {
+  background-image: url('../../../front-end-dev-test-assets/img-1.jpg');
+  display: flex;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.missionStatement {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [Paragraph] 50% [Picture] 50%;
+  grid-template-rows: auto;
+}

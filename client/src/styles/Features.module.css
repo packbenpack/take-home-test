@@ -1,0 +1,62 @@
+.header {
+  color: #603475;
+}
+
+.featuresIcons {
+  height: 30%;
+  width: 30%;
+  border: 1px solid #603475;
+  border-radius: 80px;
+  padding: 15px;
+  overflow: visible;
+}
+
+.featuresIcons:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+.featuresInfo {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 100px;
+}
+
+.featuresLearnMore {
+  color: #603475;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.featuresLogos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-left: 30px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.featuresStatement {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [Paragraph] 50% [Picture] 50%;
+  grid-template-rows: auto;
+}

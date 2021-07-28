@@ -1,0 +1,32 @@
+h2 {
+  color: #603475;
+  font-weight: 800;
+  font-size: 2.2em;
+}
+
+.app {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  grid-template-rows: [Header] 760px [MissionStatement] 530px [Pricing] 600px [Features] 600px [Clients] 600px [Carousel] 350px;
+  grid-template-columns: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+
+.social {
+  height: 60px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #603475;
+  font-weight: 600;
+}
